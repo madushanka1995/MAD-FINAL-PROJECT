@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "204877692481",
+    "firebase_url": "https://food-e7136.firebaseio.com",
+    "project_id": "food-e7136",
+    "storage_bucket": "food-e7136.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204877692481:android:9ac1a408742ca670bc10c0",
+        "android_client_info": {
+          "package_name": "com.example.orderfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204877692481-qr1gsveboin7akfksmt85c1e8kau9f71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.orderfood",
+            "certificate_hash": "1dae5053795e3d4fc6764d11232fc9890690e627"
+          }
+        },
+        {
+          "client_id": "204877692481-n4ksubj2cqja72nmk56gt96mtunktfha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-1FiFQGQAh_yWP2JLkDQv_bbu2vCgKYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204877692481-n4ksubj2cqja72nmk56gt96mtunktfha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204877692481:android:79bc58f477c5993abc10c0",
+        "android_client_info": {
+          "package_name": "com.food.fd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204877692481-n4ksubj2cqja72nmk56gt96mtunktfha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-1FiFQGQAh_yWP2JLkDQv_bbu2vCgKYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204877692481-n4ksubj2cqja72nmk56gt96mtunktfha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

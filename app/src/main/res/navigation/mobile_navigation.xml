@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.food.fd.ui.home.Cart"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_catogary"
+        android:name="com.food.fd.ui.home.Cart"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/activity_admin_category">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.food.fd.ui.gallery.GalleryFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/content_home" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.food.fd.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/activity_admin_add_product" />
+</navigation>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Ready Belly</string>
+    <string name="btn_addProduct">Add Product</string>
+    <string name="product_name">Product Name here</string>
+    <string name="product_des">Prodcut Description here</string>
+    <string name="product_price">Product Price here</string>
+    <string name="resturent">Resturenet here</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_category">Category</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="home_second">Home Second</string>
+    <string name="product_phone">Product Number here</string>
+    <string name="user_phone">Phone number here</string>
+    <string name="user_name">Name here</string>
+    <string name="user_add">Address here</string>
+    <string name="title">Ready Belly</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_signup">Join Now</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_phone">Enter Your Phone Number</string>
+    <string name="login_pass">Enter Your Password</string>
+    <string name="forget_pass">Forget Password</string>
+
+    <string name="user_email">Enter Email</string>
+    <string name="user_pass">Enter Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="btn_customer">Confirm</string>
+</resources>
