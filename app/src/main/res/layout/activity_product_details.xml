@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetails">
+
+    <ImageView
+        android:id="@+id/product_details_image"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/product_details_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_details_image"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:text="Product Name"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/product_details_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_details_name"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:text="Product Description"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/product_details_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_details_des"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:text="Product Phone"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+
+        android:id="@+id/quantity"
+        android:layout_width="78dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/product_details_price"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:elevation="6dp"
+        app:backGroundColor="@color/colorPrimary"
+        app:finalNumber="10"
+        app:initialNumber="1"
+        app:textSize="16sp">
+
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+
+    <Button
+        android:id="@+id/btn_addToCart"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Add to cart"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
